@@ -1,6 +1,6 @@
 # Pratt Parser with Application
 
-This example project implements a Pratt parser with support for **function application**, **unary** and **binary** operators, and a streaming lexer for tokenizing input.
+This example project implements a Pratt parser with support for **curried function application**, **unary** and **binary** operators, and a streaming lexer for tokenizing input.
 The parsed expressions are based on **operator precedence**.
 
 ## Features
@@ -13,7 +13,7 @@ The parsed expressions are based on **operator precedence**.
   - Strings
   - Unary expressions
   - Binary expressions
-  - Function applications
+  - Function applications (via [currying](https://en.wikipedia.org/wiki/Currying))
 - **Operator Precedence**: Configurable precedence levels for unary and binary operators.
 - **Interactive REPL**: A command-line interface for evaluating expressions.
 
