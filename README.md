@@ -1,4 +1,4 @@
-# Pratt Parser Application
+# Pratt Parser with Application
 
 This example project implements a Pratt parser with support for **function application**, **unary** and **binary** operators, and a streaming lexer for tokenizing input.
 The parsed expressions are based on **operator precedence**.
